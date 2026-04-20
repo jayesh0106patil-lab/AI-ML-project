@@ -1,0 +1,112 @@
+⚙️ Installation Guide
+1. Clone Repository
+git clone https://github.com/yourusername/image-classifier.git
+cd image-classifier
+2. Create Virtual Environment
+python -m venv venv
+3. Activate Virtual Environment
+Windows
+venv\Scripts\activate
+Linux / Mac
+source venv/bin/activate
+4. Install Dependencies
+pip install -r requirements.txt
+
+OR
+
+pip install flask tensorflow pillow numpy
+▶️ Run the Project
+python app.py
+🌐 Open in Browser
+http://127.0.0.1:5000
+🎯 How It Works
+Step 1:
+
+User uploads an image.
+
+Step 2:
+
+Image is resized to:
+
+224 x 224
+Step 3:
+
+Image is converted into array format.
+
+Step 4:
+
+Image is preprocessed using TensorFlow preprocessing.
+
+Step 5:
+
+MobileNetV2 model predicts the image category.
+
+Step 6:
+
+Top 3 predictions are shown with confidence percentage.
+
+🧠 Model Information
+MobileNetV2
+
+MobileNetV2 is a lightweight Convolutional Neural Network developed by Google and trained on ImageNet dataset.
+
+Why MobileNetV2?
+Fast prediction speed
+High accuracy
+Lightweight model
+Best for deployment
+Optimized for web and mobile apps
+📊 Sample Output
+Top Predictions:
+
+Golden Retriever - 94.2%
+Labrador Retriever - 3.8%
+Wolf - 1.1%
+💻 UI Design Features
+Gradient modern background
+Card style centered layout
+Stylish upload button
+Prediction section
+Uploaded image preview
+Responsive design
+📷 Screens
+Home Page
+Upload Image
+Predict Button
+Result Page
+Uploaded Image
+Top Predictions
+Confidence Score
+🔥 Future Improvements
+Drag and Drop Upload
+Live Camera Detection
+Real-time Object Detection
+Dark Mode
+Voice Output
+Deploy on Cloud
+Prediction History
+🚀 Deployment Options
+
+You can deploy this project on:
+
+Render
+Railway
+Heroku
+AWS
+PythonAnywhere
+Vercel (Frontend)
+📦 requirements.txt
+Flask
+TensorFlow
+NumPy
+Pillow
+🧠 Learning Outcomes
+
+This project demonstrates:
+
+Transfer Learning
+Deep Learning Models
+CNN Architecture
+Flask Web Deployment
+Image Preprocessing
+Full Stack AI Integration
